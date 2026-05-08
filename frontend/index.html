@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AskMyNotes - Semantic UI</title>
+</head>
+<body>
+
+  <header>
+    <h1>AskMyNotes</h1>
+    <p>Upload your notes and ask questions from them.</p>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Upload Notes</h2>
+
+      <form>
+        <label for="notesFile">Choose your notes file:</label>
+        <input type="file" id="notesFile" name="notesFile">
+      </form>
+    </section>
+
+    <section>
+      <h2>Ask a Question</h2>
+
+      <form>
+        <label for="question">Enter your question:</label>
+        <br>
+        <textarea 
+          id="question" 
+          name="question" 
+          rows="4" 
+          cols="50"
+          placeholder="Example: What is machine learning?">
+        </textarea>
+        <br><br>
+
+        <button type="submit">Ask My Notes</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Answer</h2>
+      <article>
+        <p>Your AI-generated answer will appear here.</p>
+      </article>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>AskMyNotes Capstone Project</p>
+  </footer>
+
+</body>
+</html>
